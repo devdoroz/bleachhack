@@ -1,3 +1,4 @@
+_G.script_key = getgenv()['script_key'] or getfenv()['script_key']
 local debris = game:GetService("Debris")
 
 local games = {
