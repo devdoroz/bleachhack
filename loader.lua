@@ -2,10 +2,10 @@ _G.script_key = getgenv()['script_key'] or getfenv()['script_key']
 local debris = game:GetService("Debris")
 
 local games = {
-	[13772394625] = "https://api.luarmor.net/files/v3/loaders/86d5ae1b35228252db1cd70ae526ede9.lua",
+	[4777817887] = "https://api.luarmor.net/files/v3/loaders/86d5ae1b35228252db1cd70ae526ede9.lua",
 }
 
-local link = games[game.PlaceId]
+local link = games[game.GameId]
 
 if not link then
 	local message = Instance.new("Message")
