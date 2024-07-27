@@ -4,7 +4,8 @@ local debris = game:GetService("Debris")
 local games = {
 	[4777817887] = "https://api.luarmor.net/files/v3/loaders/3915a1fdfb05a5f46118eb6fccbd48a6.lua",
 	[3150475059] = "https://api.luarmor.net/files/v3/loaders/50ac53ef9bc082c5e184696d281fc839.lua",
-	[184199275] = "https://api.luarmor.net/files/v3/loaders/ae959005deeaceec2423cacc3d5ff772.lua"
+	[184199275] = "https://api.luarmor.net/files/v3/loaders/ae959005deeaceec2423cacc3d5ff772.lua",
+	[3032132418] = "https://api.luarmor.net/files/v3/loaders/cfe8cb6f315caa5f5f96576817639b2a.lua"
 }
 
 local freeGames = {
